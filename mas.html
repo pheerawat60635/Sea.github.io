@@ -25,21 +25,26 @@
     }
     
     }
-    .snow{position: fixed;
-         top:-10px;
-         color:white;
-         animation:fall linear infinite;
-         }
-    @keyframes fall{
-      to{transform: translateY(110vh);}
-    }
+   .snow{
+  position: fixed;
+  top: -10px;
+  color: white;
+  animation: fall 5s linear infinite;
+}
+
+@keyframes fall{
+  to {
+    transform: translateY(110vh);
+  }
+}
+
     .bounce{
       animateion:bounce 2s infinite;
     }
     @keyframes bounce{
-      0%{transeorm: translateY (0);}
-      50%{transeorm: translateY (-15px);}
-      100%{transeorm: translateY (0);}
+      0%{transform: translateY (0);}
+      50%{transform: translateY (-15px);}
+      100%{transform: translateY (0);}
     }
     footer{
       background:darkgreen;
